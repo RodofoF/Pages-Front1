@@ -18,3 +18,18 @@
 .cabecalho__link-email{
     font-weight: 700;
 }
+
+@media screen and (max-width: 500px) {
+    .cabecalho__navegacao ul {
+        width: 100px;
+    }
+    .cabacalho__nome{
+        width: 200px;
+    }
+    .cabecalho__link{
+        display:none;
+    }
+    .cabecalho__link-email{
+        display: flex;
+    }
+} 

@@ -1,8 +1,10 @@
 .formacao {
     background-color: rgba(234, 242, 253, 1);
     margin-top: 5.5rem;
+
 }
 .formacao__grid-pai{
+    flex-wrap: wrap;
     display:flex;
     justify-content: space-between;
 }
@@ -34,3 +36,22 @@
     padding-top: .5rem;
     padding-bottom: 5.5rem;
 }
+@media screen and (max-width: 500px) {
+    .formacao {
+        background-color: rgba(234, 242, 253, 1);
+        margin-top: 5.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .formacao__grid{
+    }
+    .formacao__grid-img{
+        background-color:white;
+        width: 220px;
+        height: 286px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 

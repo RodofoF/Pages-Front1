@@ -41,3 +41,15 @@
     padding:1rem;
     color: #fff;
 }
+@media screen and (max-width: 500px) {
+    .experiencia__grid-pai{
+        flex-direction: column;
+    }
+    .experiencia__imagem{
+        width:320px;
+    }
+    .experiencia__descricao-titulo{
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+}

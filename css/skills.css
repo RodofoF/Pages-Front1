@@ -15,11 +15,13 @@
     align-items:flex-start;
     justify-content: flex-end;
     flex-direction:column;
+    
     /* margin-right: 1rem; */
 }
 .skills__grid-pai, .hobbies__grid-pai {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .skills__grid__imagem, .hobbies_grid__imagem {
     padding-left:1rem;
@@ -33,3 +35,12 @@
 .hobbies__titulo{
     margin-top: 5rem;
 }
+@media screen and (max-width: 500px) {
+    .skills__grid, .hobbies__grid {
+        margin-bottom: .5rem;
+        
+    }
+    .skills__grid-pai, .hobbies__grid-pai{
+        justify-content: space-around;
+    }
+} 
