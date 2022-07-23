@@ -12,3 +12,5 @@ Construir um portifólio que funcione como um CV mais elaborado. Nesse portifól
 * Ajustar animações css de placeholder
 * Editar layout ( O elaborado segue o proposto, porém é interessante deixar mais com a minha "cara", assim quem acessar a página poderá entender um pouco mais sobre meus gostos e referências
 
+## PagesLink
+* https://rodofof.github.io/Pages-Front1/
